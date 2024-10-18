@@ -17,19 +17,19 @@ export const carrousel = (id = "carousel", slideArray = [{imgs:[], alt:"", h:"",
             <div class="carousel-inner">
 
                 <div class="carousel-item  active">
-            `
-            if (slide.links) {
+            `;
+            // if (slide.links) {
                 
-                for (const link of (slide.links)) {
+            //     for (const link of (slide.links)) {
 
-                    container += 
-                    `
-                    <a href="${link.anchorLink}" target="_blank" rel="noopener noreferrer">
-                        ${link.anchorText}
-                    </a>
-                    `;
-                }
-            }
+            //         container += 
+            //         `
+            //         <a href="${link.anchorLink}" target="_blank" rel="noopener noreferrer">
+            //             ${link.anchorText}
+            //         </a>
+            //         `;
+            //     }
+            // }
 
             container +=
             `
@@ -65,19 +65,19 @@ export const carrousel = (id = "carousel", slideArray = [{imgs:[], alt:"", h:"",
             container += 
             `
                 <div class="carousel-item">
-            `
-            if (slide.links) {
+            `;
+            // if (slide.links) {
                 
-                for (const link of (slide.links)) {
+            //     for (const link of (slide.links)) {
 
-                    container += 
-                    `
-                    <a href="${link.anchorLink}" target="_blank" rel="noopener noreferrer">
-                        ${link.anchorText}
-                    </a>
-                    `;
-                }
-            }
+            //         container += 
+            //         `
+            //         <a href="${link.anchorLink}" target="_blank" rel="noopener noreferrer">
+            //             ${link.anchorText}
+            //         </a>
+            //         `;
+            //     }
+            // }
 
             container +=
             `

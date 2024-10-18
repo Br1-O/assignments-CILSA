@@ -14,6 +14,8 @@ import { homeContent } from "../pages/home/MAIN.js";
 import { formPage } from "../pages/form/MAIN.js";
 import { validationForm } from "../validation/form.js";
 import { accesibilityPage } from "../pages/accesibility/MAIN.js";
+import { hostingsContent } from "../pages/hostings/MAIN.js";
+import { githubSectionContent } from "../pages/github/MAIN.js";
 
 //I'm not implementing this until finishing the project, since local server is unable to redirect all petitions to my index.html without using backend server utilities
 
@@ -153,7 +155,7 @@ export const updateContent = async() => {
                 navBar();
 
                 //update home content
-                content.innerHTML = homeContent;
+                content.innerHTML = hostingsContent;
 
                 //include footer
                 footer();
@@ -170,7 +172,7 @@ export const updateContent = async() => {
                 navBar();
 
                 //update home content
-                content.innerHTML = homeContent;
+                content.innerHTML = githubSectionContent;
 
                 //include footer
                 footer();
