@@ -15,7 +15,7 @@ export const githubSectionContent = `
                     "carrousel-github",
                     [
                         {
-                            imgs: ["assets/resources/img/images/imagen-pagina.png", "assets/resources/img/images/imagen-repositorio.png"],
+                            imgs: ["assets/resources/img/images/imagen-pagina.png"],
                             alt: "Imagen de pagina en Github Pages",
                             h: "Pagina en Github Pages",
                             p: "Pagina creada para la entrega de trabajos prácticos para el bootcamp Js de CILSA",
@@ -27,7 +27,7 @@ export const githubSectionContent = `
                             ]
                         },
                         {
-                            imgs: [""],
+                            imgs: ["assets/resources/img/images/imagen-repositorio.png"],
                             alt: "Imagen del repositorio en Github",
                             h: "Repositorio de Github",
                             p: "Repositorio en Github de la pagina creada para la entrega de trabajos prácticos para el bootcamp Js de CILSA",
